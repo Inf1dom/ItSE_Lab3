@@ -3,17 +3,8 @@ package org.iis2024;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-/**
- * Represents a calendar date with validation capabilities.
- *
- * This class encapsulates a date specified by day, month, and year components. It offers
- * functionality to validate the date against specific rules: the year must be within the range of
- * 1900 to 2050, inclusive; the month must be within 1 to 12, inclusive; and the day must be valid
- * within the context of the specified month and year, taking into account variations for leap
- * years.
- *
- * Instances of this class are immutable, meaning that once a Date object is created, the day,
- * month, and year values cannot be changed.
+/* changed
+
  */
 public class Date {
   private int fieldAddedByCollaboratorSasha;
